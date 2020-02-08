@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@appsparkler/react-hfn-components@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@appsparkler/react-hfn-components/-/react-hfn-components-0.0.5.tgz#6d08509948f544a39aa35e078648b3882f0af477"
+  integrity sha512-QwDPZWTyJH/jGdLk0J4lgzHaaECxyjCho5rSzQYzwEIBztK6mWuMQLfPrPYzGL4YkiV1NlNh/9xzRCK83wcgyw==
+
 "@babel/code-frame@7.8.3", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
