@@ -1,13 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {FileInput, FirebaseUtils} from '@appsparkler/react-hfn-components'
-FirebaseUtils.app = {}
+import {FileInput} from '@appsparkler/react-hfn-components'
+import './firebase-app'
+
 function App() {
-  // const [uploadDetails, setUploadDetails] = React.useState([])
-  // const FileInputConfig = {
-  //
-  // }
   return (
     <div className="App">
       <header className="App-header">
