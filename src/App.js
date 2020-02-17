@@ -1,8 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+//
+
+function componentDidMount() {
+  setTimeout(() => {
+    const appPreLoader = document.getElementById('app-preloader')
+    appPreLoader.classList += 'slide-out'
+  }, 1000)
+}
 
 function App() {
+  React.useEffect(componentDidMount, [])
   return (
     <div className="App">
       <header className="App-header">
